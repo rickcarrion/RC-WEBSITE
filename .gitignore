@@ -1,0 +1,30 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Tooling output
+graphify-out/
+node_modules/
+*.log
+
+# Secrets
+.env
+.env.*
+
+# Files the published page does not use (kept on disk, not in the repo)
+CLAUDE.md
+translations.js
+assets/rc.png
+assets/ricardo-portrait-placeholder.svg
+assets/2026 2.jpg
+assets/2026 3.jpg
+assets/2026 4.jpg

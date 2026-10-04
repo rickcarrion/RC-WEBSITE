@@ -3,10 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ricardo Carri&oacute;n</title>
+    <title>Ricardo Carri&oacute;n | Data &amp; AI solutions that ship</title>
     <meta
       name="description"
-      content="Ricardo Carri&oacute;n - Strategic advisor for data, analytics, AI, and business transformation."
+      content="Ricardo Carri&oacute;n designs and builds data and AI solutions on big data and cloud, grounded in statistics. Process automation, cloud deployment, chatbots, sales forecasting, recommendation engines and customer segmentation across LATAM and the USA."
+    />
+    <meta name="theme-color" content="#0D0D14" />
+    <link rel="canonical" href="https://ricardocarrion.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://ricardocarrion.com/" />
+    <meta property="og:title" content="Ricardo Carri&oacute;n | Data &amp; AI solutions that ship" />
+    <meta
+      property="og:description"
+      content="I design and build data and AI solutions that become real products and measurable results."
+    />
+    <meta property="og:image" content="https://ricardocarrion.com/assets/rc-portrait.jpg" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%230D0D14'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Arial,sans-serif' font-weight='900' font-size='30' fill='%23E8A838'%3ERC%3C/text%3E%3C/svg%3E"
     />
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=GT-T5MFHWPL"></script>
@@ -22,1473 +36,453 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=IBM+Plex+Sans:wght@600;700&display=swap"
       rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
+    <a class="skip-link" href="#main" data-i18n="nav.skip">Skip to content</a>
+
     <header class="site-header">
-      <div class="container nav-shell">
-        <a class="brand" href="#home">RC</a>
-        <div class="nav-actions">
-          <nav class="site-nav" aria-label="Primary">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#experience">Experience</a>
-            <a href="#education">Education</a>
-            <a href="#coaching">Coaching</a>
-            <a href="#contact">Contact</a>
-          </nav>
-          <div
-            class="language-switch"
-            role="group"
-            aria-label="Language selector"
-          >
-            <button
-              class="language-switch-option is-active"
-              type="button"
-              data-language-option="en"
-              aria-pressed="true"
-            >
-              EN
-            </button>
-            <button
-              class="language-switch-option"
-              type="button"
-              data-language-option="es"
-              aria-pressed="false"
-            >
-              ES
-            </button>
-          </div>
+      <div class="wrap nav-shell">
+        <a class="brand" href="#top">
+          <span class="brand-mark">RC</span>
+          <span class="brand-name">Ricardo Carri&oacute;n</span>
+        </a>
+        <nav class="site-nav" aria-label="Primary" data-i18n-aria-label="nav.label">
+          <a href="#services" data-i18n="nav.services">Services</a>
+          <a href="#approach" data-i18n="nav.approach">Approach</a>
+          <a href="#demo" data-i18n="nav.demo">Demo</a>
+          <a href="#work" data-i18n="nav.work">Work</a>
+          <a href="#experience" data-i18n="nav.experience">Experience</a>
+          <a href="#education" data-i18n="nav.education">Education</a>
+          <a href="#contact" data-i18n="nav.contact">Contact</a>
+        </nav>
+        <div class="language-switch" role="group" aria-label="Language" data-i18n-aria-label="nav.language">
+          <button type="button" data-language-option="en" aria-pressed="true">EN</button>
+          <button type="button" data-language-option="es" aria-pressed="false">ES</button>
         </div>
       </div>
     </header>
 
-    <main>
-      <section class="hero-section" id="home">
-        <div class="hero-overlay"></div>
-        <div class="container hero-content">
-          <p class="hero-kicker">RC</p>
-          <h1>Ricardo Carri&oacute;n</h1>
-          <p class="hero-subtitle">
-            Strategic advisor for data, analytics, AI, and business
-            transformation
+    <main id="main">
+      <section class="hero" id="top">
+        <div class="wrap">
+          <h1 data-i18n="hero.title">Building data &amp; AI solutions that ship.</h1>
+          <p class="hero-lede" data-i18n="hero.lede">
+            I design and build data and AI solutions, on big data and cloud and
+            grounded in statistics, that become real products and measurable
+            results.
           </p>
-          <p class="hero-support">
-            Driving measurable outcomes across LATAM and USA
-          </p>
-          <div class="hero-actions">
-            <a class="button button-primary" href="#services"
-              >Explore Services</a
-            >
-            <a class="button button-whatsapp icon-button" href="https://wa.link/gcfof0" target="_blank" rel="noreferrer">
-              <span class="icon icon-chat" aria-hidden="true">
-                <svg viewBox="0 0 16 16" fill="currentColor">
-                  <path d="M13.601 2.326A7.854 7.854 0 0 0 8.224 0C3.865 0 .323 3.542.323 7.9c0 1.387.362 2.74 1.05 3.934L0 16l4.266-1.37a7.9 7.9 0 0 0 3.958 1.004h.003c4.358 0 7.9-3.542 7.9-7.9a7.85 7.85 0 0 0-2.526-5.408m-5.372 11.95h-.003a6.57 6.57 0 0 1-3.335-.908l-.24-.144-2.529.812.826-2.466-.156-.252a6.57 6.57 0 0 1-1.007-3.505c0-3.626 2.95-6.576 6.578-6.576 1.76 0 3.414.686 4.66 1.934a6.57 6.57 0 0 1 1.928 4.665c-.002 3.627-2.952 6.578-6.578 6.578"/>
-                  <path d="M12.024 10.398c-.197-.099-1.168-.576-1.35-.642-.182-.066-.315-.099-.447.1-.132.197-.513.642-.628.775-.116.132-.231.149-.428.05-.197-.1-.833-.307-1.588-.98-.587-.524-.985-1.17-1.1-1.367-.116-.198-.012-.304.087-.402.09-.09.198-.232.297-.347.099-.116.132-.198.198-.33.066-.132.033-.248-.017-.347-.05-.099-.446-1.076-.61-1.473-.161-.387-.325-.334-.446-.34l-.38-.006a.73.73 0 0 0-.529.248c-.182.198-.694.677-.694 1.65s.71 1.913.81 2.045c.099.132 1.394 2.128 3.383 2.986.473.204.84.326 1.129.417.474.151.905.13 1.246.079.38-.057 1.168-.478 1.333-.939.165-.462.165-.858.116-.94-.05-.083-.182-.132-.38-.231"/>
-                </svg>
-              </span>
-              WhatsApp Consultation
-            </a>
-          </div>
-        </div>
-        <a class="scroll-indicator" href="#about" aria-label="Scroll to About">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-            <path
-              d="M12 4v16M5 13l7 7 7-7"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-            />
-          </svg>
-        </a>
-      </section>
 
-      <section class="section light-section" id="about">
-        <div class="container">
-          <div class="section-heading">
-            <h2>About Ricardo</h2>
-            <span class="heading-rule"></span>
-          </div>
-          <div class="about-grid">
-            <div class="about-left">
-              <div class="portrait-wrap">
-                <div class="portrait-ring">
-                  <img src="./assets/rc.png" alt="Portrait of Ricardo Carri&oacute;n" />
-                </div>
-                <div class="experience-pill">7+ Years of Experience</div>
+          <div class="chooser" id="services">
+            <h2 class="chooser-question" id="chooser-question" data-i18n="chooser.question">
+              What brings you here?
+            </h2>
+            <div class="chooser-grid">
+              <div
+                class="chooser-tabs"
+                role="tablist"
+                aria-labelledby="chooser-question"
+                aria-orientation="vertical"
+              >
+                <button
+                  type="button"
+                  role="tab"
+                  id="tab-automation"
+                  aria-controls="panel-automation"
+                  aria-selected="true"
+                  data-i18n="chooser.automation.tab"
+                >
+                  Doing the same manual work over and over?
+                </button>
+                <button
+                  type="button"
+                  role="tab"
+                  id="tab-cloud"
+                  aria-controls="panel-cloud"
+                  aria-selected="false"
+                  tabindex="-1"
+                  data-i18n="chooser.cloud.tab"
+                >
+                  Have a program that only works on your computer?
+                </button>
+                <button
+                  type="button"
+                  role="tab"
+                  id="tab-chatbot"
+                  aria-controls="panel-chatbot"
+                  aria-selected="false"
+                  tabindex="-1"
+                  data-i18n="chooser.chatbot.tab"
+                >
+                  Want a chatbot that actually understands your customers?
+                </button>
+                <button
+                  type="button"
+                  role="tab"
+                  id="tab-forecast"
+                  aria-controls="panel-forecast"
+                  aria-selected="false"
+                  tabindex="-1"
+                  data-i18n="chooser.forecast.tab"
+                >
+                  Need to know what your sales will be?
+                </button>
+                <button
+                  type="button"
+                  role="tab"
+                  id="tab-recommend"
+                  aria-controls="panel-recommend"
+                  aria-selected="false"
+                  tabindex="-1"
+                  data-i18n="chooser.recommend.tab"
+                >
+                  Not sure what to offer each customer next?
+                </button>
+                <button
+                  type="button"
+                  role="tab"
+                  id="tab-segment"
+                  aria-controls="panel-segment"
+                  aria-selected="false"
+                  tabindex="-1"
+                  data-i18n="chooser.segment.tab"
+                >
+                  Want to know who your customers really are?
+                </button>
+              </div>
+
+              <div class="chooser-panels">
+                <article class="chooser-panel" role="tabpanel" id="panel-automation" aria-labelledby="tab-automation">
+                  <h3 data-i18n="chooser.automation.name">Process automation</h3>
+                  <p data-i18n="chooser.automation.text">The same extraction, the same Excel, the same emails, every week. I automate the whole routine so it runs in seconds instead of hours.</p>
+                  <ul>
+                    <li data-i18n="chooser.automation.li1">Data pulled and cleaned from your systems automatically</li>
+                    <li data-i18n="chooser.automation.li2">Reports, spreadsheets and documents that build themselves</li>
+                    <li data-i18n="chooser.automation.li3">Recurring emails and notifications sent without anyone typing</li>
+                  </ul>
+                  <p class="chooser-proof" data-i18n="chooser.automation.proof">Done before: a Peruvian insurer's paperwork intake, moved from manual processing to automatic extraction and approval.</p>
+                  <div class="chooser-actions">
+                    <a class="button button-ember" href="https://wa.me/18576055571?text=Hello%20Ricardo%2C%20I%20visited%20your%20website%20and%20I%20would%20like%20to%20ask%20you%20a%20question%20about%20your%20services." data-whatsapp="automation" target="_blank" rel="noreferrer" data-i18n="cta.whatsapp">Message me on WhatsApp</a>
+                    <a class="text-link" href="#work" data-i18n="cta.work">See the work</a>
+                  </div>
+                </article>
+
+                <article class="chooser-panel" role="tabpanel" id="panel-cloud" aria-labelledby="tab-cloud" hidden>
+                  <h3 data-i18n="chooser.cloud.name">Cloud deployment</h3>
+                  <p data-i18n="chooser.cloud.text">It works fine on your computer, and only there. I put it online so your whole team uses the same product from anywhere.</p>
+                  <ul>
+                    <li data-i18n="chooser.cloud.li1">Your program running in the cloud, available around the clock</li>
+                    <li data-i18n="chooser.cloud.li2">Secure access for every person on your team</li>
+                    <li data-i18n="chooser.cloud.li3">Built to keep working as more people use it</li>
+                  </ul>
+                  <p class="chooser-proof" data-i18n="chooser.cloud.proof">Done before: five years of a Colombian construction company's project data, turned into an online tool its customers query on demand.</p>
+                  <div class="chooser-actions">
+                    <a class="button button-ember" href="https://wa.me/18576055571?text=Hello%20Ricardo%2C%20I%20visited%20your%20website%20and%20I%20would%20like%20to%20ask%20you%20a%20question%20about%20your%20services." data-whatsapp="cloud" target="_blank" rel="noreferrer" data-i18n="cta.whatsapp">Message me on WhatsApp</a>
+                    <a class="text-link" href="#work" data-i18n="cta.work">See the work</a>
+                  </div>
+                </article>
+
+                <article class="chooser-panel" role="tabpanel" id="panel-chatbot" aria-labelledby="tab-chatbot" hidden>
+                  <h3 data-i18n="chooser.chatbot.name">Chatbots</h3>
+                  <p data-i18n="chooser.chatbot.text">Most chatbots don't understand the question and leave people without a solution. I build one that understands what your customer needs and solves it.</p>
+                  <ul>
+                    <li data-i18n="chooser.chatbot.li1">Your most frequent questions answered automatically</li>
+                    <li data-i18n="chooser.chatbot.li2">Everything else handed to the right person on your team</li>
+                    <li data-i18n="chooser.chatbot.li3">Available on your website, phone line or app</li>
+                  </ul>
+                  <p class="chooser-proof" data-i18n="chooser.chatbot.proof">Done before: customer service for one of Peru's largest banks, automated across web chat, phone and mobile app.</p>
+                  <div class="chooser-actions">
+                    <a class="button button-ember" href="https://wa.me/18576055571?text=Hello%20Ricardo%2C%20I%20visited%20your%20website%20and%20I%20would%20like%20to%20ask%20you%20a%20question%20about%20your%20services." data-whatsapp="chatbot" target="_blank" rel="noreferrer" data-i18n="cta.whatsapp">Message me on WhatsApp</a>
+                    <a class="text-link" href="#work" data-i18n="cta.work">See the work</a>
+                  </div>
+                </article>
+
+                <article class="chooser-panel" role="tabpanel" id="panel-forecast" aria-labelledby="tab-forecast" hidden>
+                  <h3 data-i18n="chooser.forecast.name">Sales forecasting</h3>
+                  <p data-i18n="chooser.forecast.text">Know what your sales will look like before the month starts. I build the forecast on your own history so you can plan stock, staff and budget.</p>
+                  <ul>
+                    <li data-i18n="chooser.forecast.li1">Sales forecasts by product, store or region</li>
+                    <li data-i18n="chooser.forecast.li2">Updated automatically as new data arrives</li>
+                    <li data-i18n="chooser.forecast.li3">Delivered as plain numbers your team can act on</li>
+                  </ul>
+                  <p class="chooser-proof" data-i18n="chooser.forecast.proof">Done before: a forecasting platform for one of the world's three largest beverage companies, used by hundreds of bottlers across South America.</p>
+                  <div class="chooser-actions">
+                    <a class="button button-ember" href="https://wa.me/18576055571?text=Hello%20Ricardo%2C%20I%20visited%20your%20website%20and%20I%20would%20like%20to%20ask%20you%20a%20question%20about%20your%20services." data-whatsapp="forecast" target="_blank" rel="noreferrer" data-i18n="cta.whatsapp">Message me on WhatsApp</a>
+                    <a class="text-link" href="#work" data-i18n="cta.work">See the work</a>
+                  </div>
+                </article>
+
+                <article class="chooser-panel" role="tabpanel" id="panel-recommend" aria-labelledby="tab-recommend" hidden>
+                  <h3 data-i18n="chooser.recommend.name">Recommendation engines</h3>
+                  <p data-i18n="chooser.recommend.text">You have many customers and many products. I build the engine that tells you what to offer each one next, based on what they already buy.</p>
+                  <ul>
+                    <li data-i18n="chooser.recommend.li1">Personalized suggestions for every customer</li>
+                    <li data-i18n="chooser.recommend.li2">Cross-selling opportunities found in your purchase history</li>
+                    <li data-i18n="chooser.recommend.li3">Connected to the systems you already use</li>
+                  </ul>
+                  <p class="chooser-proof" data-i18n="chooser.recommend.proof">Done before: a national retailer in Bolivia that grew revenue without new customers, with three personalized suggestions per interaction.</p>
+                  <div class="chooser-actions">
+                    <a class="button button-ember" href="https://wa.me/18576055571?text=Hello%20Ricardo%2C%20I%20visited%20your%20website%20and%20I%20would%20like%20to%20ask%20you%20a%20question%20about%20your%20services." data-whatsapp="recommend" target="_blank" rel="noreferrer" data-i18n="cta.whatsapp">Message me on WhatsApp</a>
+                    <a class="text-link" href="#work" data-i18n="cta.work">See the work</a>
+                  </div>
+                </article>
+
+                <article class="chooser-panel" role="tabpanel" id="panel-segment" aria-labelledby="tab-segment" hidden>
+                  <h3 data-i18n="chooser.segment.name">Customer segmentation</h3>
+                  <p data-i18n="chooser.segment.text">Understand your customers and grow profit by targeting the right ones. I group them by how they actually buy, so every campaign has a clear audience.</p>
+                  <ul>
+                    <li data-i18n="chooser.segment.li1">Clear customer groups built from real buying behavior</li>
+                    <li data-i18n="chooser.segment.li2">Lists ready for email marketing and promotions</li>
+                    <li data-i18n="chooser.segment.li3">Offers aimed at the customers most likely to respond</li>
+                  </ul>
+                  <p class="chooser-proof" data-i18n="chooser.segment.proof">Done before: buyer personas for a delivery app operating in four South American countries.</p>
+                  <div class="chooser-actions">
+                    <a class="button button-ember" href="https://wa.me/18576055571?text=Hello%20Ricardo%2C%20I%20visited%20your%20website%20and%20I%20would%20like%20to%20ask%20you%20a%20question%20about%20your%20services." data-whatsapp="segment" target="_blank" rel="noreferrer" data-i18n="cta.whatsapp">Message me on WhatsApp</a>
+                    <a class="text-link" href="#work" data-i18n="cta.work">See the work</a>
+                  </div>
+                </article>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
 
+      <section class="proof" aria-label="Track record" data-i18n-aria-label="proof.label">
+        <dl class="wrap proof-grid">
+          <div>
+            <dt data-i18n="proof.years">years leading data and AI work for LATAM's largest companies</dt>
+            <dd>5+</dd>
+          </div>
+          <div>
+            <dt data-i18n="proof.projects">projects delivered across eight industries</dt>
+            <dd>15+</dd>
+          </div>
+          <div>
+            <dt data-i18n="proof.revenue">revenue lift</dt>
+            <dd>20%+</dd>
+          </div>
+          <div>
+            <dt data-i18n="proof.efficiency">efficiency gains</dt>
+            <dd>40&ndash;60%</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="band band-ivory" id="approach">
+        <div class="wrap">
+          <div class="about">
             <div class="about-copy">
-              <p>Hello, I'm <strong>Ricardo Carri&oacute;n.</strong></p>
-              <p>
-                I'm passionate not just about technology, but about impact. I
-                help organizations move from data to measurable business value.
+              <h2 data-i18n="about.heading">
+                Most companies have data. Most have AI tools. Few have results.
+              </h2>
+              <p class="about-gap" data-i18n="about.gap">That gap is where I work.</p>
+              <p data-i18n="about.p1">
+                For 5+ years I've led data and AI transformations for some of
+                LATAM's largest companies in retail, banking, healthcare and
+                insurance. The strategy and the execution are the same person:
+                I write the Python, architect the system and deliver the
+                result.
               </p>
-              <p>
-                I hold a degree in <strong>Economics</strong> and am currently
-                pursuing an <strong>MBA</strong>, combining analytical rigor
-                with strategic and managerial expertise.
+              <p data-i18n="about.p2">
+                80% of AI projects fail on the foundation. So every engagement
+                starts with the data, not the model. Is it clean, connected and
+                trusted? Then AI goes where it creates real leverage.
               </p>
-              <p>
-                This dual background allows me to bridge the gap between
-                technical data solutions and real-world business outcomes.
+              <p data-i18n="about.p3">
+                I'm based in Boston, work in English and Spanish, and am
+                completing an MS in Financial Management at Boston University,
+                so the ROI case speaks the CFO's language.
               </p>
             </div>
+            <figure class="portrait">
+              <img
+                src="./assets/rc-portrait.jpg"
+                width="960"
+                height="1200"
+                loading="lazy"
+                alt="Portrait of Ricardo Carri&oacute;n"
+                data-i18n-alt="about.portraitAlt"
+              />
+            </figure>
+          </div>
 
-            <div class="about-info-row">
-              <article class="info-card dark-card">
-                <h3>My Approach</h3>
-                <ul class="approach-list">
-                  <li>
-                    <strong>Strategic:</strong> Long-term vision aligned with
-                    business goals
-                  </li>
-                  <li>
-                    <strong>Pragmatic:</strong> Actionable solutions that
-                    deliver results
-                  </li>
-                  <li>
-                    <strong>Trustworthy:</strong> Transparent communication and
-                    proven track record
-                  </li>
-                </ul>
-              </article>
+          <h3 class="steps-heading" data-i18n="steps.heading">How every engagement runs</h3>
+          <ol class="steps">
+            <li>
+              <h4 data-i18n="steps.1.title">Diagnose</h4>
+              <p data-i18n="steps.1.text">Audit the data foundation and name the number the project will change.</p>
+            </li>
+            <li>
+              <h4 data-i18n="steps.2.title">Design</h4>
+              <p data-i18n="steps.2.text">Shape the strategy and the architecture around that number.</p>
+            </li>
+            <li>
+              <h4 data-i18n="steps.3.title">Deploy</h4>
+              <p data-i18n="steps.3.text">Build the solution and put it in production on your cloud.</p>
+            </li>
+            <li>
+              <h4 data-i18n="steps.4.title">Scale</h4>
+              <p data-i18n="steps.4.text">Take the pilot enterprise-wide and prove the number moved.</p>
+            </li>
+          </ol>
+        </div>
+      </section>
 
-              <article class="info-card gradient-card">
-                <h3>Regional Expertise</h3>
-                <p>
-                  Serving clients across <strong>LATAM and USA</strong> with
-                  culturally-aware, business-focused advisory services.
-                </p>
-              </article>
-            </div>
+      <section class="band band-carbon" id="demo">
+        <div class="wrap">
+          <div class="band-head">
+            <h2 data-i18n="demo.heading">What a data-driven company looks like</h2>
+            <p data-i18n="demo.intro">
+              Play shopkeeper for a minute. You run a small grocery store and
+              want to offer each customer one more product. Guess first, then
+              see what your data says.
+            </p>
+          </div>
+          <div class="demo-tabs">
+            <h3 class="demo-tab" data-i18n="demo.tab">Recommendation engine</h3>
+          </div>
+          <div class="game" id="game">
+            <noscript><p>Turn on JavaScript to play the demo.</p></noscript>
           </div>
         </div>
       </section>
 
-      <section class="section services-section" id="services">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Services</h2>
-            <span class="heading-rule"></span>
-            <p>
-              Three focused offers built to create business momentum, career
-              clarity, and stronger professional positioning
+      <section class="band band-dark" id="work">
+        <div class="wrap">
+          <div class="band-head">
+            <h2 data-i18n="work.heading">Work</h2>
+            <p data-i18n="work.intro">
+              Twelve builds across eight industries. Client names stay
+              confidential; detailed case studies are available on request.
             </p>
           </div>
-
-          <div class="services-grid">
-            <article class="service-card">
-              <div class="service-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                  <path
-                    d="M9 7V5.75C9 4.231 10.231 3 11.75 3h.5C13.769 3 15 4.231 15 5.75V7M4 9.25C4 8.56 4.56 8 5.25 8h13.5c.69 0 1.25.56 1.25 1.25v9.5c0 .69-.56 1.25-1.25 1.25H5.25C4.56 20 4 19.44 4 18.75v-9.5ZM12 8v12"
-                    stroke-width="1.8"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </div>
-              <h3>Advisory &amp; Consulting</h3>
-              <p>
-                Turn data, analytics, and AI initiatives into clear business
-                priorities, execution plans, and measurable outcomes.
-              </p>
-              <ul>
-                <li>Data and AI strategy</li>
-                <li>Transformation roadmaps and prioritization</li>
-                <li>Analytics operating model design</li>
-                <li>Technology and vendor decision support</li>
-              </ul>
-              <a class="button button-secondary icon-button" href="#contact">
-                <span class="icon icon-chat" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                    <path
-                      d="M20 11.5a8.5 8.5 0 0 1-12.7 7.4L3 20l1.1-4.1A8.5 8.5 0 1 1 20 11.5Z"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </span>
-                Start Advisory
-              </a>
-            </article>
-
-            <article class="service-card">
-              <div class="service-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                  <path
-                    d="M8.5 11.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7ZM15.5 9.5a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM3.5 20v-1.25A4.75 4.75 0 0 1 8.25 14h.5A4.75 4.75 0 0 1 13.5 18.75V20M14 20v-1a4 4 0 0 1 4-4"
-                    stroke-width="1.8"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </div>
-              <h3>Career Coaching</h3>
-              <p>
-                Strategic guidance for analytics, AI, and business
-                professionals navigating growth, transition, or repositioning.
-              </p>
-              <ul>
-                <li>Career direction and market positioning</li>
-                <li>Transition strategy and role targeting</li>
-                <li>Resume, LinkedIn, and narrative refinement</li>
-                <li>Growth roadmaps for the next 12-24 months</li>
-              </ul>
-              <a class="button button-secondary icon-button" href="#coaching">
-                <span class="icon icon-chat" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                    <path
-                      d="M20 11.5a8.5 8.5 0 0 1-12.7 7.4L3 20l1.1-4.1A8.5 8.5 0 1 1 20 11.5Z"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </span>
-                Explore Coaching
-              </a>
-            </article>
-
+          <div class="filters" id="work-filters" role="group" aria-label="Filter by industry" data-i18n-aria-label="work.filterLabel"></div>
+          <div class="work-list" id="work-list">
+            <noscript><p>Turn on JavaScript to browse the project list.</p></noscript>
           </div>
-
-          <div class="wide-cta">
-            <h3>Ready to Transform Your Business or Career?</h3>
-            <p>
-              Let's discuss how strategic guidance can help you achieve your
-              goals
-            </p>
-            <a class="button button-whatsapp icon-button" href="https://wa.link/gcfof0" target="_blank" rel="noreferrer">
-              <span class="icon icon-chat" aria-hidden="true">
-                <svg viewBox="0 0 16 16" fill="currentColor">
-                  <path d="M13.601 2.326A7.854 7.854 0 0 0 8.224 0C3.865 0 .323 3.542.323 7.9c0 1.387.362 2.74 1.05 3.934L0 16l4.266-1.37a7.9 7.9 0 0 0 3.958 1.004h.003c4.358 0 7.9-3.542 7.9-7.9a7.85 7.85 0 0 0-2.526-5.408m-5.372 11.95h-.003a6.57 6.57 0 0 1-3.335-.908l-.24-.144-2.529.812.826-2.466-.156-.252a6.57 6.57 0 0 1-1.007-3.505c0-3.626 2.95-6.576 6.578-6.576 1.76 0 3.414.686 4.66 1.934a6.57 6.57 0 0 1 1.928 4.665c-.002 3.627-2.952 6.578-6.578 6.578"/>
-                  <path d="M12.024 10.398c-.197-.099-1.168-.576-1.35-.642-.182-.066-.315-.099-.447.1-.132.197-.513.642-.628.775-.116.132-.231.149-.428.05-.197-.1-.833-.307-1.588-.98-.587-.524-.985-1.17-1.1-1.367-.116-.198-.012-.304.087-.402.09-.09.198-.232.297-.347.099-.116.132-.198.198-.33.066-.132.033-.248-.017-.347-.05-.099-.446-1.076-.61-1.473-.161-.387-.325-.334-.446-.34l-.38-.006a.73.73 0 0 0-.529.248c-.182.198-.694.677-.694 1.65s.71 1.913.81 2.045c.099.132 1.394 2.128 3.383 2.986.473.204.84.326 1.129.417.474.151.905.13 1.246.079.38-.057 1.168-.478 1.333-.939.165-.462.165-.858.116-.94-.05-.083-.182-.132-.38-.231"/>
-                </svg>
-              </span>
-              Schedule WhatsApp Consultation
-            </a>
-          </div>
+          <a class="button button-outline" href="https://wa.me/18576055571?text=Hello%20Ricardo%2C%20I%20visited%20your%20website%20and%20I%20would%20like%20to%20ask%20you%20a%20question%20about%20your%20services." data-whatsapp="case" target="_blank" rel="noreferrer" data-i18n="work.request">Request a case study on WhatsApp</a>
         </div>
       </section>
-      <section class="section portfolio-section" id="portfolio">
-        <div class="container">
-          <div class="section-heading section-heading-inverse">
-            <h2>Portfolio Highlights</h2>
-            <span class="heading-rule"></span>
-            <p>Delivering strategic value through data-driven solutions</p>
-          </div>
 
-          <div class="portfolio-carousel-shell">
-            <div
-              class="portfolio-sector-row"
-              id="portfolio-sectors"
-              aria-label="Industries worked"
-            ></div>
-
-            <div class="portfolio-carousel-stage">
-              <article
-                class="portfolio-card portfolio-carousel-card"
-                id="portfolio-carousel-card"
-                aria-live="polite"
-              ></article>
-            </div>
-
-            <div class="portfolio-carousel-footer">
-              <div class="portfolio-timer-track" aria-hidden="true">
-                <span class="portfolio-timer-bar" id="portfolio-timer-bar"></span>
-              </div>
-              <p class="portfolio-carousel-note">
-                Auto-advancing every 5 seconds, grouped by industry in your
-                current project order before looping back again.
-              </p>
-            </div>
-          </div>
-
-          <div class="portfolio-grid">
-            <article class="portfolio-card">
-              <h3>Analytics Platform</h3>
-              <p class="portfolio-meta-display"><span class="portfolio-meta-icon" aria-hidden="true">↗</span>Beverage Industry &middot; LATAM</p>
-              <p class="portfolio-meta">Beverage Industry · LATAM</p>
-              <p>
-                One of the three largest beverage companies in the world needed
-                to bring analytics to hundreds of small bottlers across South
-                America. We built a forecasting platform that allowed each
-                bottler, regardless of size or country, to predict their sales
-                and act on real insights. Result: a single scalable model
-                deployed across an entire region, giving small operators the
-                decision power of a large enterprise.
-              </p>
-              <div class="tag-row">
-                <span>Forecasting</span>
-                <span>Scalable Deployment</span>
-                <span>LATAM</span>
-              </div>
-            </article>
-
-            <article class="portfolio-card">
-              <h3>Product Recommendation Engine</h3>
-              <p class="portfolio-meta-display"><span class="portfolio-meta-icon" aria-hidden="true">↗</span>Retail &middot; Bolivia</p>
-              <p class="portfolio-meta">Retail · Bolivia</p>
-              <p>
-                A national retail leader wanted to grow revenue without
-                acquiring new customers. We built a recommendation system that
-                identified cross-selling opportunities from historical purchase
-                data, offering each client three personalized suggestions per
-                interaction. The engine combined two machine learning
-                techniques and was powered by customer segmentation, deployed
-                directly into their existing infrastructure.
-              </p>
-              <div class="tag-row">
-                <span>Machine Learning</span>
-                <span>Recommendation</span>
-                <span>Cross-selling</span>
-              </div>
-            </article>
-
-            <article class="portfolio-card">
-              <h3>Invoice Risk Model</h3>
-              <p class="portfolio-meta-display"><span class="portfolio-meta-icon" aria-hidden="true">↗</span>Retail &middot; Argentina</p>
-              <p class="portfolio-meta">Retail · Argentina</p>
-              <p>
-                A large Argentine retailer needed to reduce financial exposure
-                from advance payment approvals. The challenge: they only had
-                data on approved cases. We built a scorecard model grounded in
-                business logic and expert judgment, one that didn't just flag
-                risk, but gave employees clear context on each supplier's
-                historical behavior to support confident, defensible decisions.
-              </p>
-              <div class="tag-row">
-                <span>Risk Modelling</span>
-                <span>Scorecard</span>
-                <span>Business Logic</span>
-              </div>
-            </article>
-
-            <article class="portfolio-card">
-              <h3>Analytics Retainer</h3>
-              <p class="portfolio-meta-display"><span class="portfolio-meta-icon" aria-hidden="true">↗</span>Construction Retail &middot; Ecuador</p>
-              <p class="portfolio-meta">Construction Retail · Ecuador</p>
-              <p>
-                We served as an embedded analytics partner for one of Ecuador's
-                leading construction supply retailers. Delivered three
-                initiatives: a product recommendation model across 7,000+ SKUs,
-                an agent profiling tool using decision trees to identify
-                top-performer characteristics, and a web scraping system that
-                gave the sales team early visibility into new construction
-                projects, before competitors could act.
-              </p>
-              <div class="tag-row">
-                <span>Embedded Analytics</span>
-                <span>Decision Trees</span>
-                <span>Web Scraping</span>
-              </div>
-            </article>
-
-            <article class="portfolio-card">
-              <h3>Chatbot &amp; Voicebot</h3>
-              <p class="portfolio-meta-display"><span class="portfolio-meta-icon" aria-hidden="true">↗</span>Banking &middot; Peru</p>
-              <p class="portfolio-meta">Banking · Peru</p>
-              <p>
-                One of the largest banks in Peru and LATAM needed to automate
-                customer service at scale. We architected and deployed a full
-                conversational AI solution, from an informational chatbot on
-                their public website, to a voicebot integrated into their IVR,
-                to a personalized version connected to their private digital
-                channels and mobile app. The final version integrated directly
-                with the bank's microservices to offer products like credit
-                cards and pre-approved loans in real time.
-              </p>
-              <div class="tag-row">
-                <span>Conversational AI</span>
-                <span>NLP</span>
-                <span>Banking Integration</span>
-              </div>
-            </article>
-
-            <article class="portfolio-card">
-              <h3>Document Automation</h3>
-              <p class="portfolio-meta-display"><span class="portfolio-meta-icon" aria-hidden="true">↗</span>Insurance &middot; Peru</p>
-              <p class="portfolio-meta">Insurance · Peru</p>
-              <p>
-                A major Peruvian insurer was processing agent-change requests
-                manually, receiving paperwork in mixed formats with no
-                standardized flow. We automated the entire intake process using
-                computer vision and NLP to extract information from PDFs,
-                scanned documents, and spreadsheets, then built a machine
-                learning model to approve or flag each request based on
-                historical patterns.
-              </p>
-              <div class="tag-row">
-                <span>Computer Vision</span>
-                <span>NLP</span>
-                <span>Automation</span>
-              </div>
-            </article>
-
-            <article class="portfolio-card">
-              <h3>Commercial Analytics Dashboard</h3>
-              <p class="portfolio-meta-display"><span class="portfolio-meta-icon" aria-hidden="true">↗</span>Consulting &middot; Internal</p>
-              <p class="portfolio-meta">Consulting · Internal</p>
-              <p>
-                Built an interactive internal dashboard to support the
-                commercial team's decision-making across multiple analytics
-                product lines, including smart basket, customer lifetime value,
-                and churn models. Designed for storytelling, not just
-                reporting: every view was built to drive a specific business
-                conversation.
-              </p>
-              <div class="tag-row">
-                <span>Dashboards</span>
-                <span>Storytelling</span>
-                <span>Business Intelligence</span>
-              </div>
-            </article>
-
-            <article class="portfolio-card">
-              <h3>Customer Segmentation</h3>
-              <p class="portfolio-meta-display"><span class="portfolio-meta-icon" aria-hidden="true">↗</span>Delivery App &middot; LATAM</p>
-              <p class="portfolio-meta">Delivery App · LATAM</p>
-              <p>
-                A delivery platform operating across four South American
-                countries needed to understand who their customers actually
-                were. We ran RFM analysis to isolate active users, applied
-                clustering algorithms to find natural groupings, and translated
-                the statistical output into clear buyer personas, giving the
-                commercial team a real framework for targeting and
-                personalization.
-              </p>
-              <div class="tag-row">
-                <span>Clustering</span>
-                <span>RFM Analysis</span>
-                <span>Segmentation</span>
-              </div>
-            </article>
-
-            <article class="portfolio-card">
-              <h3>Appointment No-Show Prediction</h3>
-              <p class="portfolio-meta-display"><span class="portfolio-meta-icon" aria-hidden="true">↗</span>Healthcare &middot; Ecuador</p>
-              <p class="portfolio-meta">Healthcare · Ecuador</p>
-              <p>
-                A health center was losing significant capacity to no-show
-                appointments. We built a neural network model to predict the
-                probability of each patient attending, enabling the operations
-                team to act proactively, reduce waste, and optimize scheduling
-                before the day began.
-              </p>
-              <div class="tag-row">
-                <span>Neural Networks</span>
-                <span>Healthcare</span>
-                <span>Predictive Analytics</span>
-              </div>
-            </article>
-
-            <article class="portfolio-card">
-              <h3>Analytics API</h3>
-              <p class="portfolio-meta-display"><span class="portfolio-meta-icon" aria-hidden="true">↗</span>Construction &middot; Colombia</p>
-              <p class="portfolio-meta">Construction · Colombia</p>
-              <p>
-                A Colombian construction company had five years of project data
-                with no way to surface it to customers. We built an API and web
-                interface that delivered on-demand insights by price, sector,
-                and time, turning a static data archive into a live
-                decision-support tool for buyers and developers.
-              </p>
-              <div class="tag-row">
-                <span>API Development</span>
-                <span>Data Products</span>
-                <span>Construction</span>
-              </div>
-            </article>
-
-            <article class="portfolio-card">
-              <h3>Store Location Predictor</h3>
-              <p class="portfolio-meta-display"><span class="portfolio-meta-icon" aria-hidden="true">↗</span>Retail &middot; LATAM</p>
-              <p class="portfolio-meta">Retail · LATAM</p>
-              <p>
-                Built a predictive application that recommends where a retail
-                company should open its next store, using historical store
-                performance, geographic data, and macroeconomic indicators.
-                Translated location intelligence into a business recommendation
-                tool for commercial and expansion teams.
-              </p>
-              <div class="tag-row">
-                <span>Geospatial Analytics</span>
-                <span>Predictive Modeling</span>
-                <span>Retail Expansion</span>
-              </div>
-            </article>
-
-            <article class="portfolio-card">
-              <h3>Document Classification</h3>
-              <p class="portfolio-meta-display"><span class="portfolio-meta-icon" aria-hidden="true">↗</span>Banking &middot; South America</p>
-              <p class="portfolio-meta">Banking · South America</p>
-              <p>
-                An international development bank had decades of project
-                documentation with no way to navigate it. We built an
-                NLP-based classification system that grouped documents by topic
-                and surfaced similar historical projects by keyword, giving
-                analysts instant access to institutional memory that had been
-                effectively invisible.
-              </p>
-              <div class="tag-row">
-                <span>NLP</span>
-                <span>Classification</span>
-                <span>Knowledge Management</span>
-              </div>
-            </article>
-          </div>
-
-          <div class="portfolio-footer">
-            <p>
-              *Client confidentiality maintained. Detailed case studies
-              available upon request.
+      <section class="band band-carbon" id="experience">
+        <div class="wrap">
+          <div class="band-head">
+            <h2 data-i18n="experience.heading">Experience</h2>
+            <p data-i18n="experience.intro">
+              From data scientist to owning a company's cloud data architecture
+              and its first AI initiatives.
             </p>
-            <a class="button button-primary" href="#contact"
-              >Request Case Studies</a
-            >
+          </div>
+          <div class="experience-list" id="experience-list">
+            <noscript><p>Turn on JavaScript to see the work history.</p></noscript>
           </div>
         </div>
       </section>
 
-      <section class="section light-section" id="experience">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Professional Experience</h2>
-            <span class="heading-rule"></span>
-            <p>
-              A track record of delivering measurable business value through
-              data and analytics
+      <section class="band band-ivory" id="education">
+        <div class="wrap">
+          <div class="band-head">
+            <h2 data-i18n="education.heading">Education</h2>
+            <p data-i18n="education.intro">
+              Economics for the rigor, an MBA for the strategy, and finance to
+              put a number on both.
             </p>
           </div>
-
-          <div class="timeline">
-            <article class="experience-card experience-journey-card">
-              <div class="experience-head">
-                <div>
-                  <h3>Best Doctors Insurance</h3>
-                  <div class="experience-track" aria-label="Career progression from Data Analyst to Cloud Data Engineer">
-                    <span class="experience-track-step">Data Analyst</span>
-                    <span class="experience-track-arrow" aria-hidden="true"></span>
-                    <span class="experience-track-step is-current">Cloud Data Engineer</span>
-                  </div>
-                </div>
-                <div class="experience-meta">
-                  <p>
-                    <span class="meta-icon" aria-hidden="true">
-                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                        <rect x="3" y="5" width="18" height="16" rx="2" stroke-width="1.9"/>
-                        <path d="M16 3v4M8 3v4M3 10h18" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
-                      </svg>
-                    </span>
-                    March 2023 - August 2025
-                  </p>
-                  <p>
-                    <span class="meta-icon" aria-hidden="true">
-                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                        <path d="M12 21s-6-4.35-6-10a6 6 0 1 1 12 0c0 5.65-6 10-6 10Z" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
-                        <circle cx="12" cy="11" r="2.3" stroke-width="1.9"/>
-                      </svg>
-                    </span>
-                    Ecuador
-                  </p>
-                  <p>
-                    <span class="meta-icon" aria-hidden="true">
-                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                        <path d="m5 16 4.2-4.2 3.1 3.1 6.2-7.1M14.5 7.5H20V13" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
-                      </svg>
-                    </span>
-                    2-role progression
-                  </p>
-                </div>
+          <ul class="education-list">
+            <li>
+              <p class="education-when" data-i18n="education.bu.when">Sep 2026 &ndash; May 2027, in progress</p>
+              <div>
+                <h3>Boston University Metropolitan College</h3>
+                <p data-i18n="education.bu.degree">Master of Science in Financial Management</p>
               </div>
-              <div class="experience-role-stack">
-                <section class="experience-role-panel is-current" data-experience-role>
-                  <div class="experience-role-top">
-                    <div>
-                      <span class="experience-role-kicker">Latest Role</span>
-                      <p class="role">
-                        <span class="role-icon" aria-hidden="true">
-                          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                            <path d="M7 21V7h10v14M4 21h16M9 11h2M13 11h2M9 15h2M13 15h2M9 7V4h6v3" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                        </span>
-                        Cloud Data Engineer
-                      </p>
-                    </div>
-                    <p class="experience-role-period">March 2023 - August 2025</p>
-                  </div>
-                  <div class="experience-list">
-                    <p>
-                      Led the company's cloud data architecture, with primary
-                      responsibility for the Data Warehouse in Snowflake,
-                      ensuring scalable analytics, governance, security, and
-                      reliable access to business data.
-                    </p>
-                    <p>
-                      Managed the core data stack, including ELT/ETL tools,
-                      data lineage, and integration architecture across key
-                      business systems.
-                    </p>
-                    <p>
-                      Served as the main technical owner for enterprise data
-                      initiatives involving Power BI, CRM data integration, and
-                      cloud-based analytics enablement.
-                    </p>
-                    <p>
-                      Led the company's first AI initiatives, including LLM
-                      applications for customer-facing and claims-related use
-                      cases, as well as the first corporate OCR solution to
-                      automate data entry and detect document alterations.
-                    </p>
-                    <p>
-                      Delivered strategic integration projects, including
-                      automated data delivery to third parties and ingestion of
-                      Dialpad and social media API data into the Data
-                      Warehouse.
-                    </p>
-                  </div>
-                </section>
-                <section class="experience-role-panel" data-experience-role>
-                  <div class="experience-role-top">
-                    <div>
-                      <span class="experience-role-kicker experience-role-kicker-muted">Earlier Role</span>
-                      <p class="role">
-                        <span class="role-icon" aria-hidden="true">
-                          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                            <path d="M7 21V7h10v14M4 21h16M9 11h2M13 11h2M9 15h2M13 15h2M9 7V4h6v3" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                        </span>
-                        Data Analyst
-                      </p>
-                    </div>
-                    <p class="experience-role-period">March 2023 - June 2025</p>
-                  </div>
-                  <div class="experience-list">
-                    <p>
-                      Supported senior management with analysis, statistics, and
-                      business estimates to improve visibility and
-                      decision-making across the organization.
-                    </p>
-                    <p>
-                      Developed dashboards and KPI reporting in Microsoft Power
-                      BI, helping expand access to performance tracking and
-                      business insights.
-                    </p>
-                    <p>
-                      Built and optimized data preparation workflows, including
-                      ETL and ELT processes, using Microsoft SQL Server and
-                      Matillion.
-                    </p>
-                    <p>
-                      Extracted, validated, and prepared data from operational
-                      systems to support reporting, analytics, and the early
-                      development of the company's Data Warehouse.
-                    </p>
-                    <p>
-                      Supported data governance efforts through data quality
-                      validation, confidentiality controls, and review of roles
-                      and permissions across data environments.
-                    </p>
-                    <p>
-                      Contributed to early digitalization initiatives by
-                      supporting reporting, notifications, CRM-related data
-                      needs, and foundational analytics capabilities.
-                    </p>
-                  </div>
-                </section>
+              <div class="education-place">
+                <svg class="flag" viewBox="0 0 24 16" aria-hidden="true"><rect width="24" height="16" fill="#fff"/><path d="M0 1.15h24M0 3.45h24M0 5.75h24M0 8.05h24M0 10.35h24M0 12.65h24M0 14.95h24" stroke="#B22234" stroke-width="1.25"/><rect width="10" height="8.7" fill="#3C3B6E"/></svg>
+                <p class="education-note" data-i18n="education.bu.note">Boston, United States</p>
               </div>
-            </article>
-
-            <article class="experience-card experience-journey-card">
-              <div class="experience-head">
-                <div>
-                  <h3>KIN ANALYTICS</h3>
-                  <div class="experience-track" aria-label="Career progression from Business Analyst to Middle Consultant to Senior Consultant">
-                    <span class="experience-track-step">Business Analyst</span>
-                    <span class="experience-track-arrow" aria-hidden="true"></span>
-                    <span class="experience-track-step">Middle Consultant</span>
-                    <span class="experience-track-arrow" aria-hidden="true"></span>
-                    <span class="experience-track-step is-current">Senior Consultant</span>
-                  </div>
-                </div>
-                <div class="experience-meta">
-                  <p>
-                    <span class="meta-icon" aria-hidden="true">
-                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                        <rect x="3" y="5" width="18" height="16" rx="2" stroke-width="1.9"/>
-                        <path d="M16 3v4M8 3v4M3 10h18" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
-                      </svg>
-                    </span>
-                    November 2020 - February 2023
-                  </p>
-                  <p>
-                    <span class="meta-icon" aria-hidden="true">
-                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                        <path d="M12 21s-6-4.35-6-10a6 6 0 1 1 12 0c0 5.65-6 10-6 10Z" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
-                        <circle cx="12" cy="11" r="2.3" stroke-width="1.9"/>
-                      </svg>
-                    </span>
-                    Ecuador
-                  </p>
-                  <p>
-                    <span class="meta-icon" aria-hidden="true">
-                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                        <path d="m5 16 4.2-4.2 3.1 3.1 6.2-7.1M14.5 7.5H20V13" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
-                      </svg>
-                    </span>
-                    3-role progression
-                  </p>
-                </div>
+            </li>
+            <li>
+              <p class="education-when" data-i18n="education.egade.when">Sep 2025 &ndash; Sep 2026</p>
+              <div>
+                <h3>EGADE Business School, Tecnol&oacute;gico de Monterrey</h3>
+                <p data-i18n="education.egade.degree">Master of Business Administration (MBA)</p>
               </div>
-              <div class="experience-role-stack">
-                <section class="experience-role-panel is-current" data-experience-role>
-                  <div class="experience-role-top">
-                    <div>
-                      <span class="experience-role-kicker">Latest Role</span>
-                      <p class="role">
-                        <span class="role-icon" aria-hidden="true">
-                          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                            <path d="M7 21V7h10v14M4 21h16M9 11h2M13 11h2M9 15h2M13 15h2M9 7V4h6v3" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                        </span>
-                        Senior Consultant
-                      </p>
-                    </div>
-                    <p class="experience-role-period">November 2022 - February 2023</p>
-                  </div>
-                  <div class="experience-list">
-                    <p>
-                      Led analytics and automation projects from planning to
-                      delivery, coordinating teams, timelines, resources, and
-                      client communication.
-                    </p>
-                    <p>
-                      Guided solution design across cloud and on-premises
-                      environments, ensuring projects aligned with business
-                      priorities and measurable outcomes.
-                    </p>
-                    <p>
-                      Oversaw project execution, KPI follow-up, and
-                      presentation of results to clients and senior
-                      stakeholders.
-                    </p>
-                    <p>
-                      Supported team direction and decision-making across
-                      initiatives involving predictive analytics, process
-                      automation, document intelligence, and AI-based
-                      solutions.
-                    </p>
-                  </div>
-                </section>
-                <section class="experience-role-panel" data-experience-role>
-                  <div class="experience-role-top">
-                    <div>
-                      <span class="experience-role-kicker experience-role-kicker-muted">Promotion Step</span>
-                      <p class="role">
-                        <span class="role-icon" aria-hidden="true">
-                          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                            <path d="M7 21V7h10v14M4 21h16M9 11h2M13 11h2M9 15h2M13 15h2M9 7V4h6v3" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                        </span>
-                        Middle Consultant
-                      </p>
-                    </div>
-                    <p class="experience-role-period">January 2022 - October 2022</p>
-                  </div>
-                  <div class="experience-list">
-                    <p>
-                      Served as a bridge between technical execution and client
-                      needs, helping shape analytics projects from early
-                      conversations to implementation.
-                    </p>
-                    <p>
-                      Participated in commercial and discovery meetings,
-                      identifying opportunities, defining project scope, and
-                      supporting proposal development.
-                    </p>
-                    <p>
-                      Coordinated project progress with clients and internal
-                      teams, helping translate business needs into actionable
-                      analytical solutions.
-                    </p>
-                    <p>
-                      Contributed to the delivery of analytics and automation
-                      projects across cloud and on-premises environments.
-                    </p>
-                  </div>
-                </section>
-                <section class="experience-role-panel" data-experience-role>
-                  <div class="experience-role-top">
-                    <div>
-                      <span class="experience-role-kicker experience-role-kicker-muted">Starting Role</span>
-                      <p class="role">
-                        <span class="role-icon" aria-hidden="true">
-                          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                            <path d="M7 21V7h10v14M4 21h16M9 11h2M13 11h2M9 15h2M13 15h2M9 7V4h6v3" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                        </span>
-                        Business Analyst
-                      </p>
-                    </div>
-                    <p class="experience-role-period">November 2020 - December 2021</p>
-                  </div>
-                  <div class="experience-list">
-                    <p>
-                      Supported the hands-on execution of analytics projects,
-                      with a strong focus on technical development and
-                      implementation.
-                    </p>
-                    <p>
-                      Built data workflows and algorithms for data mining,
-                      feature extraction, and ETLs in cloud-based environments,
-                      primarily using AWS.
-                    </p>
-                    <p>
-                      Worked on structured-data solutions involving process
-                      automation, machine learning support, and document
-                      generation in PDF, Word, and Excel formats.
-                    </p>
-                    <p>
-                      Contributed to project delivery through technical
-                      analysis, development, and operational support.
-                    </p>
-                  </div>
-                </section>
+              <div class="education-place">
+                <svg class="flag" viewBox="0 0 24 16" aria-hidden="true"><rect width="8" height="16" fill="#006847"/><rect x="8" width="8" height="16" fill="#fff"/><rect x="16" width="8" height="16" fill="#CE1126"/><circle cx="12" cy="8" r="1.8" fill="#8C6A3F"/></svg>
+                <p class="education-note" data-i18n="education.egade.note">Monterrey, Mexico. GPA 9.54/10</p>
               </div>
-            </article>
-
-            <article class="experience-card experience-journey-card">
-              <div class="experience-head">
-                <div>
-                  <h3>NOUX</h3>
-                  <div class="experience-track" aria-label="Career progression from Data Scientist to Key Account Executive">
-                    <span class="experience-track-step">Data Scientist</span>
-                    <span class="experience-track-arrow" aria-hidden="true"></span>
-                    <span class="experience-track-step is-current">Key Account Executive</span>
-                  </div>
-                </div>
-                <div class="experience-meta">
-                  <p>
-                    <span class="meta-icon" aria-hidden="true">
-                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                        <rect x="3" y="5" width="18" height="16" rx="2" stroke-width="1.9"/>
-                        <path d="M16 3v4M8 3v4M3 10h18" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
-                      </svg>
-                    </span>
-                    July 2019 - October 2020
-                  </p>
-                  <p>
-                    <span class="meta-icon" aria-hidden="true">
-                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                        <path d="M12 21s-6-4.35-6-10a6 6 0 1 1 12 0c0 5.65-6 10-6 10Z" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
-                        <circle cx="12" cy="11" r="2.3" stroke-width="1.9"/>
-                      </svg>
-                    </span>
-                    Ecuador
-                  </p>
-                  <p>
-                    <span class="meta-icon" aria-hidden="true">
-                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                        <path d="m5 16 4.2-4.2 3.1 3.1 6.2-7.1M14.5 7.5H20V13" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
-                      </svg>
-                    </span>
-                    2-role progression
-                  </p>
-                </div>
-              </div>
-              <div class="experience-role-stack">
-                <section class="experience-role-panel is-current" data-experience-role>
-                  <div class="experience-role-top">
-                    <div>
-                      <span class="experience-role-kicker">Latest Role</span>
-                      <p class="role">
-                        <span class="role-icon" aria-hidden="true">
-                          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                            <path d="M7 21V7h10v14M4 21h16M9 11h2M13 11h2M9 15h2M13 15h2M9 7V4h6v3" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                        </span>
-                        Key Account Executive
-                      </p>
-                    </div>
-                    <p class="experience-role-period">March 2020 - October 2020</p>
-                  </div>
-                  <div class="experience-list">
-                    <p>
-                      Managed strategic relationships with senior executives
-                      from one of Noux's most important clients, supporting
-                      high-level commercial discussions and solution alignment.
-                    </p>
-                    <p>
-                      Conducted market and competitive research using Gartner
-                      and Teradata insights to identify business opportunities
-                      and strengthen client proposals.
-                    </p>
-                    <p>
-                      Supported the commercial positioning of BI and Teradata
-                      solutions, translating technical capabilities into
-                      business value for decision-makers.
-                    </p>
-                    <p>
-                      Contributed to analytics projects by incorporating agile
-                      methodologies to improve collaboration, structure, and
-                      delivery processes.
-                    </p>
-                  </div>
-                </section>
-                <section class="experience-role-panel" data-experience-role>
-                  <div class="experience-role-top">
-                    <div>
-                      <span class="experience-role-kicker experience-role-kicker-muted">Starting Role</span>
-                      <p class="role">
-                        <span class="role-icon" aria-hidden="true">
-                          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                            <path d="M7 21V7h10v14M4 21h16M9 11h2M13 11h2M9 15h2M13 15h2M9 7V4h6v3" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/>
-                          </svg>
-                        </span>
-                        Data Scientist
-                      </p>
-                    </div>
-                    <p class="experience-role-period">July 2019 - February 2020</p>
-                  </div>
-                  <div class="experience-list">
-                    <p>
-                      Developed descriptive and predictive analytics solutions
-                      for Ecuadorian and international companies using R and
-                      Python.
-                    </p>
-                    <p>
-                      Built dashboards and visual reports in Tableau and
-                      Microsoft Power BI to turn data into clear business
-                      insights.
-                    </p>
-                    <p>
-                      Presented analytical results to stakeholders, helping
-                      translate technical findings into actionable
-                      recommendations.
-                    </p>
-                    <p>
-                      Supported data-driven decision-making across projects by
-                      combining analytics, visualization, and business
-                      understanding.
-                    </p>
-                  </div>
-                </section>
-              </div>
-            </article>
-          </div>
-
-          <div class="stats-grid">
-            <div class="stat-card" data-stat-card="projects">
-              <strong data-stat-value>12</strong>
-              <span>Featured Projects</span>
-            </div>
-            <div class="stat-card" data-stat-card="industries">
-              <strong data-stat-value>8</strong>
-              <span>Industries Served</span>
-            </div>
-            <div class="stat-card stat-card-dark" data-stat-card="roles">
-              <strong data-stat-value>7</strong>
-              <span>Professional Roles</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="section education-section" id="education">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Education</h2>
-            <span class="heading-rule"></span>
-            <p>
-              Each academic stop strengthened a different capability: economics
-              and analytical rigor in Quito, global exposure in Wilmington,
-              innovation in Barcelona, and executive strategy in Monterrey.
-            </p>
-          </div>
-
-          <div class="education-showcase">
-            <div class="education-map-card">
-              <div class="education-map-copy">
-                <p class="education-eyebrow">Global Academic Footprint</p>
-                <h3 id="education-active-school">
-                  EGADE Business School – Tecnológico de Monterrey
-                </h3>
-                <p class="education-map-summary" id="education-active-summary">
-                  MBA studies in Mexico reinforcing executive leadership,
-                  business strategy, and transformation management for
-                  high-impact decision-making.
-                </p>
-                <div class="education-active-meta">
-                  <span id="education-active-location">Monterrey, Mexico</span>
-                  <span id="education-active-period">2025 - 2026</span>
-                </div>
-                <div
-                  class="education-active-highlights"
-                  id="education-active-highlights"
-                  aria-live="polite"
-                >
-                  <span>Executive Leadership</span>
-                  <span>Business Strategy</span>
-                  <span>Transformation Management</span>
-                </div>
-              </div>
-
-              <div class="education-map-visual">
-                <div class="education-map-hint">
-                  Select a city or school to fly across the live atlas and
-                  trace where each academic chapter happened.
-                </div>
-                <div class="education-map-status">
-                  <span class="education-map-status-kicker">Geo Relay</span>
-                  <strong id="education-map-focus-city">Monterrey, Mexico</strong>
-                  <span id="education-map-focus-region">Nuevo Leon · Mexico</span>
-                  <div class="education-map-timer" aria-live="polite">
-                    <span
-                      class="education-map-timer-label"
-                      id="education-map-timer-label"
-                      >Next city in 3.0s</span
-                    >
-                    <span class="education-map-timer-track" aria-hidden="true">
-                      <span
-                        class="education-map-timer-fill"
-                        id="education-map-timer-fill"
-                      ></span>
-                    </span>
-                  </div>
-                </div>
-                <div class="education-map-canvas-shell">
-                  <div
-                    class="education-map-canvas"
-                    id="education-study-map"
-                    role="img"
-                    aria-label="Interactive map showing academic locations in Quito, Wilmington, Barcelona, and Monterrey"
-                  ></div>
-                </div>
-
-                <div
-                  class="education-map-jump-list"
-                  role="group"
-                  aria-label="Jump between study cities"
-                >
-                  <button
-                    class="education-marker marker-quito"
-                    type="button"
-                    data-edu="usfq"
-                    data-region="south-america"
-                    data-region-label="South America"
-                    data-city="Quito"
-                    data-country="Ecuador"
-                    data-admin="Pichincha"
-                    data-lat="-0.1807"
-                    data-lng="-78.4678"
-                    data-zoom="4.4"
-                    aria-label="Jump to Quito, Ecuador"
-                  >
-                    <span class="education-marker-dot"></span>
-                    <span class="education-marker-meta">
-                      <span class="education-marker-label">Quito</span>
-                      <span class="education-marker-subtitle"
-                        >USFQ &middot; Ecuador</span
-                      >
-                    </span>
-                  </button>
-                  <button
-                    class="education-marker marker-wilmington"
-                    type="button"
-                    data-edu="uncw"
-                    data-region="north-america"
-                    data-region-label="North America"
-                    data-city="Wilmington"
-                    data-country="United States"
-                    data-admin="North Carolina"
-                    data-lat="34.2257"
-                    data-lng="-77.9447"
-                    data-zoom="4.1"
-                    aria-label="Jump to Wilmington, USA"
-                  >
-                    <span class="education-marker-dot"></span>
-                    <span class="education-marker-meta">
-                      <span class="education-marker-label">Wilmington</span>
-                      <span class="education-marker-subtitle"
-                        >UNCW &middot; United States</span
-                      >
-                    </span>
-                  </button>
-                  <button
-                    class="education-marker marker-barcelona"
-                    type="button"
-                    data-edu="esade"
-                    data-region="europe"
-                    data-region-label="Europe"
-                    data-city="Barcelona"
-                    data-country="Spain"
-                    data-admin="Catalonia"
-                    data-lat="41.3874"
-                    data-lng="2.1686"
-                    data-zoom="4.7"
-                    aria-label="Jump to Barcelona, Spain"
-                  >
-                    <span class="education-marker-dot"></span>
-                    <span class="education-marker-meta">
-                      <span class="education-marker-label">Barcelona</span>
-                      <span class="education-marker-subtitle"
-                        >ESADE &middot; Spain</span
-                      >
-                    </span>
-                  </button>
-                  <button
-                    class="education-marker marker-monterrey is-active"
-                    type="button"
-                    data-edu="egade"
-                    data-region="north-america"
-                    data-region-label="North America"
-                    data-city="Monterrey"
-                    data-country="Mexico"
-                    data-admin="Nuevo Leon"
-                    data-lat="25.6866"
-                    data-lng="-100.3161"
-                    data-zoom="4.3"
-                    aria-label="Jump to Monterrey, Mexico"
-                  >
-                    <span class="education-marker-dot"></span>
-                    <span class="education-marker-meta">
-                      <span class="education-marker-label">Monterrey</span>
-                      <span class="education-marker-subtitle"
-                        >EGADE &middot; Mexico</span
-                      >
-                    </span>
-                  </button>
-                </div>
-              </div>
-
-              <div class="education-map-stats">
-                <div>
-                  <strong>4</strong>
-                  <span>countries</span>
-                </div>
-                <div>
-                  <strong>2</strong>
-                  <span>international programs</span>
-                </div>
-                <div>
-                  <strong>Magna Cum Laude</strong>
-                  <span>academic distinction</span>
-                </div>
-              </div>
-            </div>
-
-            <div class="education-list">
-              <article
-                class="education-entry is-active"
-                data-edu="egade"
-                data-school="EGADE Business School – Tecnológico de Monterrey"
-                data-summary="MBA studies in Mexico reinforcing executive leadership, business strategy, and transformation management for senior decision-making."
-                data-location="Monterrey, Mexico"
-                data-period="2025 - 2026"
-                data-highlights="Executive Leadership|Business Strategy|Transformation Management"
-                tabindex="0"
-              >
-                <p class="education-entry-kicker">Mexico</p>
-                <h3>EGADE Business School – Tecnológico de Monterrey</h3>
-                <p class="education-entry-degree">
-                  Master of Business Administration (MBA)
-                </p>
-                <div class="education-entry-meta">
-                  <span>September 2025 - September 2026 (expected)</span>
-                  <span>GPA: 9.54/10</span>
-                </div>
-              </article>
-
-              <article
-                class="education-entry"
-                data-edu="usfq"
-                data-school="Universidad San Francisco de Quito (USFQ)"
-                data-summary="Economics training in Quito that built quantitative thinking, analytical rigor, and sector grounding in insurance, with magna cum laude distinction."
-                data-location="Quito, Ecuador"
-                data-period="2014 - 2019"
-                data-highlights="Economics|Quantitative Analysis|Insurance"
-                tabindex="0"
-              >
-                <p class="education-entry-kicker">Ecuador</p>
+            </li>
+            <li>
+              <p class="education-when" data-i18n="education.usfq.when">May 2014 &ndash; May 2019</p>
+              <div>
                 <h3>Universidad San Francisco de Quito (USFQ)</h3>
-                <p class="education-entry-degree">Economics</p>
-                <div class="education-entry-meta">
-                  <span>May 2014 - May 2019</span>
-                  <span>GPA: 3.82/4</span>
-                </div>
-                <div class="education-entry-notes">
-                  <span><strong>Awards:</strong> Magna Cum Laude</span>
-                  <span><strong>Minor:</strong> Insurance</span>
-                </div>
-              </article>
-
-              <article
-                class="education-entry"
-                data-edu="esade"
-                data-school="ESADE Business School"
-                data-summary="An international summer program in Barcelona that sharpened innovation thinking, entrepreneurship, and opportunity framing."
-                data-location="Barcelona, Spain"
-                data-period="2018"
-                data-highlights="Entrepreneurship|Innovation|Opportunity Framing"
-                tabindex="0"
-              >
-                <p class="education-entry-kicker">Spain</p>
+                <p data-i18n="education.usfq.degree">Economics, minor in Insurance. Magna Cum Laude</p>
+              </div>
+              <div class="education-place">
+                <svg class="flag" viewBox="0 0 24 16" aria-hidden="true"><rect width="24" height="8" fill="#FFDD00"/><rect y="8" width="24" height="4" fill="#034EA2"/><rect y="12" width="24" height="4" fill="#ED1C24"/><circle cx="12" cy="8" r="2" fill="#8C6A3F"/></svg>
+                <p class="education-note" data-i18n="education.usfq.note">Quito, Ecuador. GPA 3.82/4</p>
+              </div>
+            </li>
+            <li>
+              <p class="education-when" data-i18n="education.esade.when">Jul &ndash; Aug 2018</p>
+              <div>
                 <h3>ESADE Business School</h3>
-                <p class="education-entry-degree">
-                  International Summer Program in Entrepreneurship &amp;
-                  Innovation
-                </p>
-                <div class="education-entry-meta">
-                  <span>July 2018 - August 2018</span>
-                </div>
-              </article>
-
-              <article
-                class="education-entry"
-                data-edu="uncw"
-                data-school="University of North Carolina Wilmington (UNCW)"
-                data-summary="An academic exchange in the United States that expanded global perspective, adaptability, and cross-cultural communication."
-                data-location="Wilmington, United States"
-                data-period="2017 - 2018"
-                data-highlights="Global Perspective|Cross-cultural Communication|Adaptability"
-                tabindex="0"
-              >
-                <p class="education-entry-kicker">United States</p>
+                <p data-i18n="education.esade.degree">International Summer Program in Entrepreneurship &amp; Innovation</p>
+              </div>
+              <div class="education-place">
+                <svg class="flag" viewBox="0 0 24 16" aria-hidden="true"><rect width="24" height="16" fill="#AA151B"/><rect y="4" width="24" height="8" fill="#F1BF00"/></svg>
+                <p class="education-note" data-i18n="education.esade.note">Barcelona, Spain</p>
+              </div>
+            </li>
+            <li>
+              <p class="education-when" data-i18n="education.uncw.when">2017 &ndash; 2018</p>
+              <div>
                 <h3>University of North Carolina Wilmington (UNCW)</h3>
-                <p class="education-entry-degree">Academic Exchange Program</p>
-                <div class="education-entry-meta">
-                  <span>Spring 2017 - 2018</span>
-                </div>
-              </article>
-            </div>
-          </div>
+                <p data-i18n="education.uncw.degree">Academic Exchange Program</p>
+              </div>
+              <div class="education-place">
+                <svg class="flag" viewBox="0 0 24 16" aria-hidden="true"><rect width="24" height="16" fill="#fff"/><path d="M0 1.15h24M0 3.45h24M0 5.75h24M0 8.05h24M0 10.35h24M0 12.65h24M0 14.95h24" stroke="#B22234" stroke-width="1.25"/><rect width="10" height="8.7" fill="#3C3B6E"/></svg>
+                <p class="education-note" data-i18n="education.uncw.note">Wilmington, United States</p>
+              </div>
+            </li>
+          </ul>
         </div>
       </section>
 
-      <section class="section light-section coaching-section" id="coaching">
-        <div class="container">
-          <div class="section-heading">
-            <h2>Career Coaching</h2>
-            <span class="heading-rule"></span>
-            <p>
-              Guidance for analytics, AI, and business professionals seeking
-              clarity and direction
-            </p>
+      <section class="band band-dark contact" id="contact">
+        <div class="wrap">
+          <h2 data-i18n="contact.heading">Data first. Then AI. Then results.</h2>
+          <p class="contact-lede" data-i18n="contact.lede">
+            Tell me the number you want to change. WhatsApp is the fastest way
+            to reach me.
+          </p>
+          <div class="contact-actions">
+            <a class="button button-ember" href="https://wa.me/18576055571?text=Hello%20Ricardo%2C%20I%20visited%20your%20website%20and%20I%20would%20like%20to%20ask%20you%20a%20question%20about%20your%20services." data-whatsapp="general" target="_blank" rel="noreferrer" data-i18n="cta.whatsapp">Message me on WhatsApp</a>
+            <a class="button button-outline" href="https://www.linkedin.com/in/ricardo-carrion/" target="_blank" rel="noreferrer" data-i18n="contact.linkedin">Connect on LinkedIn</a>
           </div>
-
-          <div class="coaching-grid">
-            <article class="coaching-card">
-              <div class="service-icon small-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                  <circle cx="12" cy="12" r="8" stroke-width="2" />
-                  <circle cx="12" cy="12" r="3" stroke-width="2" />
-                </svg>
-              </div>
-              <h3>Career Direction</h3>
-              <p>
-                Find clarity in your professional path, whether transitioning to
-                analytics/AI or advancing in your current field.
-              </p>
-            </article>
-
-            <article class="coaching-card">
-              <div class="service-icon small-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                  <path
-                    d="M12 3a9 9 0 1 0 9 9M12 8v4l2.5 2.5"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </div>
-              <h3>Industry Navigation</h3>
-              <p>
-                Expert guidance on breaking into data, analytics, and AI roles
-                across different industries and regions.
-              </p>
-            </article>
-
-            <article class="coaching-card">
-              <div class="service-icon small-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                  <path
-                    d="m5 16 6-6 4 4 5-5M14 5h6v6"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  />
-                </svg>
-              </div>
-              <h3>Professional Growth</h3>
-              <p>
-                Develop strategic plans for skill development, personal
-                branding, and career advancement.
-              </p>
-            </article>
-          </div>
-
-          <div class="coaching-detail-grid">
-            <div class="coaching-benefits">
-              <h3>What You'll Get</h3>
-              <ul>
-                <li>One-on-one personalized coaching sessions</li>
-                <li>Industry insights from 7+ years experience</li>
-                <li>CV/Resume review and optimization</li>
-                <li>Interview preparation and strategies</li>
-                <li>Career roadmap development</li>
-                <li>Ongoing support and accountability</li>
-              </ul>
-            </div>
-
-            <div class="coaching-offer">
-              <h3>Invest in Your Future</h3>
-              <p>
-                Whether you're seeking a career transition, professional
-                clarity, or strategic growth, personalized coaching can
-                accelerate your journey.
-              </p>
-              <div class="offer-inner">
-                <p><strong>Flexible Sessions:</strong> 1-hour personalized coaching</p>
-                <p><strong>Delivery:</strong> Video call or WhatsApp</p>
-                <p><strong>Follow-up:</strong> Ongoing support included</p>
-              </div>
-              <a class="button button-light icon-button full-width" href="#contact">
-                <span class="icon icon-chat" aria-hidden="true">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                    <path
-                      d="M20 11.5a8.5 8.5 0 0 1-12.7 7.4L3 20l1.1-4.1A8.5 8.5 0 1 1 20 11.5Z"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </span>
-                Book Your Coaching Session
-              </a>
-            </div>
-          </div>
-
-          <blockquote class="quote-card">
-            <p>
-              "Career decisions and personal fulfillment require strategic
-              thinking. Let's work together to build your roadmap to success."
-            </p>
-            <footer>— Ricardo Carri&oacute;n</footer>
-          </blockquote>
-        </div>
-      </section>
-
-      <section class="section contact-section" id="contact">
-        <div class="container">
-          <div class="section-heading section-heading-inverse">
-            <h2>Let's Connect</h2>
-            <span class="heading-rule"></span>
-            <p>
-              Ready to transform your business or accelerate your career? Reach
-              out today.
-            </p>
-          </div>
-
-          <div class="contact-grid">
-            <div class="contact-info">
-              <h3>Get in Touch</h3>
-              <a class="contact-chip" href="https://wa.link/gcfof0" target="_blank" rel="noreferrer">
-                <span class="chip-icon">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
-                    <path d="M20.5 11.6a8.45 8.45 0 0 1-12.54 7.42L3.5 20.5l1.46-4.25A8.47 8.47 0 1 1 20.5 11.6Z"/>
-                    <path d="M9.3 8.85c.15-.35.3-.36.57-.37h.48c.14 0 .37.05.57.48.19.43.65 1.56.71 1.67.06.12.1.27.02.43-.08.16-.12.27-.25.41-.13.15-.27.32-.39.43-.13.13-.27.28-.12.56.15.27.66 1.08 1.42 1.75.97.86 1.78 1.13 2.03 1.26.25.12.39.1.54-.06.15-.15.62-.72.78-.96.16-.24.33-.2.55-.12.23.08 1.43.67 1.67.79.24.12.4.18.46.29.06.12.06.66-.15 1.3-.21.64-1.23 1.22-1.69 1.29-.43.07-.98.1-1.58-.1a9.37 9.37 0 0 1-1.43-.53c-2.51-1.09-4.15-3.69-4.27-3.86-.12-.16-1.02-1.35-1.02-2.58 0-1.23.64-1.84.87-2.09Z"/>
-                  </svg>
-                </span>
-                <span><small>WhatsApp</small><strong>Quick Response</strong></span>
-              </a>
-              <a class="contact-chip" href="https://www.linkedin.com/in/ricardo-carrion/" target="_blank" rel="noreferrer">
-                <span class="chip-icon">
-                  <svg viewBox="0 0 24 24" fill="currentColor">
-                    <path d="M5.12 8.64H8.5V19H5.12zm1.7-4.14a1.97 1.97 0 1 1 0 3.94 1.97 1.97 0 0 1 0-3.94M10.63 8.64h3.23v1.41h.05c.45-.8 1.55-1.64 3.2-1.64 3.42 0 4.05 2.25 4.05 5.18V19h-3.37v-4.87c0-1.16-.02-2.65-1.62-2.65-1.62 0-1.87 1.26-1.87 2.57V19h-3.37z"/>
-                    <path d="M4 3.5h16A1.5 1.5 0 0 1 21.5 5v14a1.5 1.5 0 0 1-1.5 1.5H4A1.5 1.5 0 0 1 2.5 19V5A1.5 1.5 0 0 1 4 3.5Z" fill="none"/>
-                  </svg>
-                </span>
-                <span><small>LinkedIn</small><strong>Connect with me</strong></span>
-              </a>
-              <div class="contact-chip">
-                <span class="chip-icon">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
-                    <path
-                      d="M12 21s-6-4.35-6-10a6 6 0 0 1 12 0c0 5.65-6 10-6 10Z"
-                      stroke-width="2"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                    <circle cx="12" cy="11" r="2" stroke-width="2" />
-                  </svg>
-                </span>
-                <span><small>Location</small><strong>Monterrey, Mexico</strong></span>
-              </div>
-            </div>
-          </div>
+          <p class="contact-location" data-i18n="contact.location">
+            Based in Boston, Massachusetts. Working across LATAM and the USA.
+          </p>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <div class="container footer-grid">
-        <div>
-          <a class="brand footer-brand" href="#home">RC</a>
-          <p>
-            Ricardo Carri&oacute;n - Strategic advisor for data, analytics, AI, and
-            business transformation.
-          </p>
-        </div>
-        <div>
-          <h3>Quick Links</h3>
-          <ul class="footer-links">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#coaching">Coaching</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-        <div>
-          <h3>Connect</h3>
-          <div class="footer-icons">
-            <a href="https://www.linkedin.com/in/ricardo-carrion/" aria-label="LinkedIn" target="_blank" rel="noreferrer">
-              <svg viewBox="0 0 16 16" fill="currentColor">
-                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175A1.175 1.175 0 0 1 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.225 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.175-.432.571-.88 1.238-.88.873 0 1.221.664 1.221 1.636v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169H6.25c.03.678 0 7.225 0 7.225z"/>
-              </svg>
-            </a>
-            <a href="https://wa.link/gcfof0" aria-label="WhatsApp" target="_blank" rel="noreferrer">
-              <svg viewBox="0 0 16 16" fill="currentColor">
-                <path d="M13.601 2.326A7.854 7.854 0 0 0 8.224 0C3.865 0 .323 3.542.323 7.9c0 1.387.362 2.74 1.05 3.934L0 16l4.266-1.37a7.9 7.9 0 0 0 3.958 1.004h.003c4.358 0 7.9-3.542 7.9-7.9a7.85 7.85 0 0 0-2.526-5.408m-5.372 11.95h-.003a6.57 6.57 0 0 1-3.335-.908l-.24-.144-2.529.812.826-2.466-.156-.252a6.57 6.57 0 0 1-1.007-3.505c0-3.626 2.95-6.576 6.578-6.576 1.76 0 3.414.686 4.66 1.934a6.57 6.57 0 0 1 1.928 4.665c-.002 3.627-2.952 6.578-6.578 6.578"/>
-                <path d="M12.024 10.398c-.197-.099-1.168-.576-1.35-.642-.182-.066-.315-.099-.447.1-.132.197-.513.642-.628.775-.116.132-.231.149-.428.05-.197-.1-.833-.307-1.588-.98-.587-.524-.985-1.17-1.1-1.367-.116-.198-.012-.304.087-.402.09-.09.198-.232.297-.347.099-.116.132-.198.198-.33.066-.132.033-.248-.017-.347-.05-.099-.446-1.076-.61-1.473-.161-.387-.325-.334-.446-.34l-.38-.006a.73.73 0 0 0-.529.248c-.182.198-.694.677-.694 1.65s.71 1.913.81 2.045c.099.132 1.394 2.128 3.383 2.986.473.204.84.326 1.129.417.474.151.905.13 1.246.079.38-.057 1.168-.478 1.333-.939.165-.462.165-.858.116-.94-.05-.083-.182-.132-.38-.231"/>
-              </svg>
-            </a>
-          </div>
-          <p>Based in Monterrey, Mexico</p>
-        </div>
-      </div>
-      <div class="container footer-bottom">
-        <p>© 2026 Ricardo Carri&oacute;n. All rights reserved.</p>
-        <p>Strategic • Pragmatic • Trustworthy</p>
+      <div class="wrap footer-shell">
+        <a class="brand" href="#top">
+          <span class="brand-mark">RC</span>
+          <span class="brand-name">Ricardo Carri&oacute;n</span>
+        </a>
+        <p class="footer-location" data-i18n="footer.location">Based in Boston, Massachusetts</p>
+        <a class="button button-ember footer-whatsapp" href="https://wa.me/18576055571?text=Hello%20Ricardo%2C%20I%20visited%20your%20website%20and%20I%20would%20like%20to%20ask%20you%20a%20question%20about%20your%20services." data-whatsapp="general" target="_blank" rel="noreferrer" data-i18n="cta.whatsapp">Message me on WhatsApp</a>
+        <p class="footer-rights" data-i18n="footer.rights">&copy; 2026 Ricardo Carri&oacute;n. All rights reserved.</p>
       </div>
     </footer>
 
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="./translations.js"></script>
+    <script src="./content.js"></script>
+    <script src="./game.js"></script>
     <script src="./script.js"></script>
   </body>
 </html>
